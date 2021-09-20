@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+div.flex-dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+aside {
+    display: block;
+    height: 100%;
+    width: 300px;
+    background-color: gray;
+}
+
+main {
+    display: block;
+    height: 100%;
+    background-color: #CCC;
+    width: calc(100% - 300px);
+}
+
+.flex-dashboard header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    padding: 0 30px;
+}
